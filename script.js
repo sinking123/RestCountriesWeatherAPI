@@ -48,7 +48,7 @@ let create_card = (country) => {
   return card;
 };
 
-// FETCH API
+// FETCH API --> Change URL according to the params
 fetch("https://restcountries.eu/rest/v2/all")
   .then((res) => res.json())
   .then((data) => {
